@@ -1,4 +1,7 @@
 /* ./your-css-folder/styles.css */
 @tailwind base;
 @tailwind components;
+.encabezado {
+    @apply text-3xl font-bold text-gray-800 mt-5 mx-2 mb-3
+}
 @tailwind utilities;
